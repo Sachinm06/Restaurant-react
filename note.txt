@@ -1,0 +1,27 @@
+js Api
+
+
+AJAX
+----
+
+1-xmlHttps
+2-fetch
+3-async await      -  we can directly store in a variable using async and await
+
+
+useEffect  -  hook used to call function at the starting time of components
+
+Redirection in react
+--------------------
+
+react-router-dom          -library used for Redirection
+
+BrowserRouter        - root component selector
+Route                - for path setting
+Routes               - if we use more than one path
+
+
+Params
+------
+
+-useParams  - hook used to access Params
