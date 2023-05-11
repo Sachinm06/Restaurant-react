@@ -25,3 +25,39 @@ Params
 ------
 
 -useParams  - hook used to access Params
+
+
+
+REDUX
+-----
+props drilling -  data will stuck in any intermediate component when the component
+                  have any issue
+
+                - props drilling occures during coupling many connection between parent and child  (COUPLING)
+
+
+ to avoid props drilling we need to reduce coupling and make all compponents independent 
+
+ so react indroduced a state management technology - REDUX               
+
+
+                               app.js
+                               ------
+
+        restaurent.js                             header
+        -------------                             ------
+
+operating hours             review
+--------------              -------
+
+
+a component can access file from store.js(parent) but cannot edit so we can use REDUX
+access data from store.js then dispatch to action file. the action file did all the logics. the result called payload 
+the payload transferd to reducer and reducer update the file 
+
+
+libraries
+---------
+   REDUX
+   react-REDUX
+   redux-thunk
