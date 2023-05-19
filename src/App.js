@@ -19,7 +19,7 @@ function App() {
         <Route path='/' element={<Restaurant></Restaurant>}></Route>
         <Route path='/viewRest/:id' element={<Restview></Restview>}></Route>
       </Routes>
-
+=
       <Footer></Footer>
     </div>
   );

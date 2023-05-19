@@ -61,3 +61,12 @@ libraries
    REDUX
    react-REDUX
    redux-thunk
+
+
+axios
+-----
+used to call api in react
+
+
+useSelector  - hook used to access data from store
+
